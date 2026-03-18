@@ -1,9 +1,9 @@
 {
   "name": "maison-goffier",
   "scripts": {
-    "build:css": "npx tailwindcss -i ./assets/css/main.css -o ./_site/assets/css/style.css",
+    "build:css": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css",
     "watch:css": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
-    "build": "npm run build:css && jekyll build",
+    "build": "npm run build:css && bundle exec jekyll build",
     "dev": "concurrently \"npm run watch:css\" \"jekyll serve --livereload\""
   },
   "devDependencies": {

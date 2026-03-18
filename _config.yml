@@ -1,6 +1,6 @@
 title: Maison Goffier
-baseurl: "/maison-goffier"
-url: "https://samuelabadie.github.io"
+baseurl: ""
+url: "https://maison-goffier.onrender.com"
 exclude:
   - node_modules
   - package.json
