@@ -1,0 +1,18 @@
+title: Maison Goffier
+baseurl: "/maison-goffier"
+url: "https://samuelabadie.github.io"
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+  - postcss.config.js
+  - Gemfile
+  - Gemfile.lock
+  - .jekyllignore
+  - "details_2 2.png"
+  - "hero-bg.png"
+  - "ll-1-scaled 2.png"
+  - "maquette-figma-desktop.png"
+  - "tissus_goffier 2.png"
+  - "zoom_pied_12-1 2.png"

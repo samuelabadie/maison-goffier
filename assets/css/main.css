@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-dark;
+  }
+  h1, h2, h3 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .container-mg {
+    @apply max-w-[1312px] mx-auto px-5;
+  }
+  .btn-primary {
+    @apply inline-block px-8 py-3 bg-dark text-white font-serif text-sm tracking-widest uppercase hover:bg-gold hover:text-dark transition-colors duration-300;
+  }
+  .btn-secondary {
+    @apply inline-block px-8 py-3 bg-transparent text-gold font-serif text-sm tracking-widest uppercase border border-gold hover:bg-gold hover:text-dark transition-colors duration-300;
+  }
+}

@@ -1,0 +1,32 @@
+nav:
+  home: "Home"
+  creations: "Creations"
+  maison: "The House"
+  contact: "Contact"
+
+hero:
+  brand: "MAISON GOFFIER"
+  location: "PARIS"
+  h1: "A world of unique contemporary pieces in pâte de verre and metal."
+  made_in: "Made in France"
+  cta: "Discover our collection"
+  baseline: "The excellence of glass, the magic of light"
+
+section2:
+  label: "French house of creation"
+  h2: "Creator of unique, design and exceptional decorative objects. Custom projects and bespoke realisations on request."
+  cta: "Book an appointment"
+
+section3:
+  label: "The materials"
+  h2: "Contemporary pâte de verre glass & noble metals"
+  subtitle: "Each piece is conceived by the House, then crafted with a master glassmaker and carefully selected artisans."
+  card1_title: "Pâte de verre"
+  card1_desc: "Glass is placed in single-use moulds, then cut and polished to create high-quality pâte de verre works with a resolutely contemporary spirit."
+  card2_title: "Bronze & Brass"
+  card2_desc: "Brass pieces — tubes, profiles or plates — are cut to measure, polished and then hand-patinated using an ancestral method for a unique and exclusive finish."
+  card3_title: "Textiles"
+  card3_desc: "Each lampshade is handcrafted in our workshops, using fabrics selected for their nobility and structure, bringing warmth and refinement to every creation."
+
+lang_switcher:
+  label: "Language"

@@ -1,0 +1,16 @@
+{% assign t = site.data.i18n[page.lang] %}
+<section id="maison" class="bg-dark py-20 md:py-28">
+  <div class="container-mg">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-[60px] items-center">
+      <div>
+        <span class="block font-sans text-xs uppercase tracking-widest text-gold mb-6">{{ t.section2.label }}</span>
+        <h2 class="font-serif text-2xl md:text-3xl lg:text-4xl text-white leading-snug mb-8">{{ t.section2.h2 }}</h2>
+        <a href="#contact" class="btn-secondary">{{ t.section2.cta }}</a>
+      </div>
+      <div class="parallax-wrap overflow-hidden">
+        <img src="{{ '/assets/images/ll-1-scaled.png' | relative_url }}" alt="Maison Goffier"
+          class="parallax-img w-full object-cover scale-[1.2]">
+      </div>
+    </div>
+  </div>
+</section>

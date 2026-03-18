@@ -1,0 +1,32 @@
+nav:
+  home: "Accueil"
+  creations: "Créations"
+  maison: "La Maison"
+  contact: "Contact"
+
+hero:
+  brand: "MAISON GOFFIER"
+  location: "PARIS"
+  h1: "Un univers de pièces uniques contemporaines en pâte de verre et métal."
+  made_in: "Fabriqué en France"
+  cta: "Découvrir notre collection"
+  baseline: "L'excellence du verre, la magie de la lumière"
+
+section2:
+  label: "Maison française de création"
+  h2: "Créateur d'objets de décoration de pièces uniques design et d'exception. Projets et réalisation personnalisée sur demande."
+  cta: "Prendre rendez-vous"
+
+section3:
+  label: "Les matières"
+  h2: "Verres contemporains en pâte de verre & métaux nobles"
+  subtitle: "Chaque pièce est imaginée par la Maison, puis réalisée avec un maître verrier et des artisans d'art soigneusement sélectionnés."
+  card1_title: "Pâte de verre"
+  card1_desc: "Le verre est disposé dans des moules à usage unique, puis ensuite taillé et poli afin de créer des œuvres de haute qualité en pâte de verre à l'esprit résolument contemporain."
+  card2_title: "Bronze & Laiton"
+  card2_desc: "Les pièces de laiton, tube, profilé ou plaque sont découpés sur mesure, polies puis patinées à la main selon une méthode ancestrale au rendu unique et exclusif."
+  card3_title: "Textiles"
+  card3_desc: "Chaque abat-jour est confectionné à la main dans nos ateliers, en tissus sélectionnés pour leur noblesse et leur tenue, apportant chaleur et raffinement à chaque création."
+
+lang_switcher:
+  label: "Langue"

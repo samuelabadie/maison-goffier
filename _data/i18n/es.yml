@@ -1,0 +1,32 @@
+nav:
+  home: "Inicio"
+  creations: "Creaciones"
+  maison: "La Maison"
+  contact: "Contacto"
+
+hero:
+  brand: "MAISON GOFFIER"
+  location: "PARIS"
+  h1: "Un universo de piezas únicas contemporáneas en pasta de vidrio y metal."
+  made_in: "Fabricado en Francia"
+  cta: "Descubrir nuestra colección"
+  baseline: "La excelencia del vidrio, la magia de la luz"
+
+section2:
+  label: "Maison francesa de creación"
+  h2: "Creador de objetos de decoración únicos, de diseño y excepción. Proyectos y realizaciones personalizadas bajo pedido."
+  cta: "Concertar una cita"
+
+section3:
+  label: "Los materiales"
+  h2: "Vidrios contemporáneos en pasta de vidrio & metales nobles"
+  subtitle: "Cada pieza es concebida por la Maison, luego realizada con un maestro vidriero y artesanos cuidadosamente seleccionados."
+  card1_title: "Pasta de vidrio"
+  card1_desc: "El vidrio se dispone en moldes de un solo uso, luego se talla y pule para crear obras de alta calidad en pasta de vidrio con un espíritu decididamente contemporáneo."
+  card2_title: "Bronce & Latón"
+  card2_desc: "Las piezas de latón, tubo, perfil o placa se cortan a medida, se pulen y luego se patinan a mano según un método ancestral de acabado único y exclusivo."
+  card3_title: "Textiles"
+  card3_desc: "Cada pantalla de lámpara se confecciona a mano en nuestros talleres, con tejidos seleccionados por su nobleza y consistencia, aportando calidez y refinamiento a cada creación."
+
+lang_switcher:
+  label: "Idioma"
