@@ -1,5 +1,51 @@
 gsap.registerPlugin(ScrollTrigger);
 
+// ─── Intro timeline ───────────────────────────────────────────────────────────
+(function () {
+  const overlay  = document.getElementById('page-overlay');
+  const heroBg   = document.getElementById('hero-bg');
+  const brand    = document.getElementById('hero-brand');
+  const loc      = document.getElementById('hero-location');
+  const band     = document.getElementById('hero-band');
+  const h1       = document.getElementById('hero-h1');
+  const made     = document.getElementById('hero-made');
+  const flag     = document.getElementById('hero-flag');
+  const cta      = document.getElementById('hero-cta');
+  const baseline = document.getElementById('hero-baseline');
+
+  if (!overlay || !heroBg || !brand) return;
+
+  // Split "MAISON GOFFIER" en lettres individuelles
+  const rawText = brand.textContent.trim();
+  brand.textContent = '';
+  rawText.split('').forEach(char => {
+    const s = document.createElement('span');
+    s.textContent = char === ' ' ? '\u00A0' : char;
+    s.style.display = 'inline-block';
+    brand.appendChild(s);
+  });
+  const letters = brand.querySelectorAll('span');
+
+  gsap.set(overlay, { x: '0%', opacity: 1 });
+
+  gsap.timeline()
+    .to({}, { duration: 1 })
+    .to(overlay, { x: '100%', duration: 1.0, ease: 'power2.inOut' });
+})();
+
+// ─── Nav underline hover ─────────────────────────────────────────────────────
+document.querySelectorAll('.nav-link').forEach(link => {
+  const underline = link.querySelector('.nav-underline');
+  if (!underline) return;
+
+  link.addEventListener('mouseenter', () => {
+    gsap.to(underline, { scaleX: 1, duration: 0.35, ease: 'power2.out', transformOrigin: 'left' });
+  });
+  link.addEventListener('mouseleave', () => {
+    gsap.to(underline, { scaleX: 0, duration: 0.25, ease: 'power2.in', transformOrigin: 'right' });
+  });
+});
+
 // ─── Hamburger menu ──────────────────────────────────────────────────────────
 const burger    = document.getElementById('burger');
 const mobileMenu = document.getElementById('mobile-menu');
